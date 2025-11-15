@@ -93,7 +93,7 @@ builder:
 # Use accessory services (secrets come from .kamal/secrets).
 accessories:
   postgres:
-    image: postgres:18
+    image: postgres:15
     host: 167.71.116.58 # The IP you want the database deployed to
     env:
       clear:
