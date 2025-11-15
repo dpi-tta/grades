@@ -27,7 +27,7 @@ production:
     database: <%= ENV["POSTGRES_DB"] %>
     password: <%= ENV["POSTGRES_PASSWORD"] %>
     host: <%= ENV["DB_HOST"] %>
-    port: <%= ENV["DB_PORT"] %>
+    # port: <%= ENV["DB_PORT"] %>
   # queue:
   #   <<: *default
   #   url: <%= ENV['DATABASE_URL']&.sub(/_primary$/, '_queue') %>
