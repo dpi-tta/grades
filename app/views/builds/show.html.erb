@@ -1,5 +1,5 @@
 <%= content_for :title do %>
-  Grade | <%= @resource.project_path %> | Build #<%= @build.attempt_number %>
+  Grade | <%= @build.resource.project_path %> | Build #<%= @build.attempt_number %>
 <% end %>
 
 <div class="container mt-5">
